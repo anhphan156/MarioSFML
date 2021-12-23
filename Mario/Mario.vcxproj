@@ -145,12 +145,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="GameEngine.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Scene\Play.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Entity" />
     <Folder Include="Math" />
-    <Folder Include="Scene" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameEngine.h" />
+    <ClInclude Include="Scene\Play.h" />
+    <ClInclude Include="Scene\Scene.h" />
+    <ClInclude Include="Type.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
