@@ -29,7 +29,7 @@ void Play::sRender()
 
     if(game)
     {
-        game->getWindow().clear();
+        game->getWindow().clear(sf::Color::Blue);
         game->getWindow().draw(m_circle);
         for(const auto & line : m_grid)
         {
