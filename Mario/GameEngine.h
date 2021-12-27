@@ -5,13 +5,10 @@
 class GameEngine
 {
     sf::RenderWindow m_window;
-
+    SceneMap scenes;
     std::shared_ptr<Scene> m_currenScene;
 
     void init();
-
-    SceneMap scenes;
-
     void sUserInput();
 
 public:
